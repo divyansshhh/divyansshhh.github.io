@@ -1,0 +1,107 @@
+:root {
+  --background: #0b132b;
+  --secondary: #8d99ae;
+  --primary: #edf2f4;
+  --highlight1: #ef233c;
+  --highlight2: #02c39a;
+}
+
+* {
+    margin: 0 !important;
+}
+
+#content {
+    height: 100vh;
+}
+
+section {    
+    background-color: var(--background);
+    min-height: 102vh;
+}
+
+.color-primary{
+    color: var(--primary)
+}
+
+.color-secondary{
+    color: var(--secondary)
+}
+
+.color-highlight1 {
+    color: var(--highlight1)
+}
+
+.color-highlight2 {
+    color: var(--highlight2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.home-subtext {
+    margin: 0;
+    padding: 5px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.home-links li a {
+    text-decoration: none;
+    color: var(--highlight2);
+}
+
+.home-links {
+    margin: 0;
+    list-style: none;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.home-links li {
+    display: inline;
+    padding: 10px;
+}
+
+.home-heading {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 40vh;
+    font-size: 60px;
+}
+
+.home-down-icon {
+    padding-top: 300px;
+}
+
+.about-content{
+    padding: 12px
+}
+
+.workExCard {
+    font-family: 'Merriweather', serif;
+    padding: 12px;
+}
+
+.workExCard p {
+    margin: 0 !important;
+}
+
+.workExCard h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.workExCard-duration {
+    font-style: italic;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.workExCard-description {
+    font-size: 15px;
+}
